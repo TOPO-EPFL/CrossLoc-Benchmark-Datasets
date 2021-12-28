@@ -96,7 +96,7 @@ See [`dataset_rollout.ipynb`](dataset_rollout.ipynb) to have a preview on the da
 
 See [`dataset_statistics.ipynb`](dataset_statistics.ipynb) to compute some statistics of the dataset.
 
-# Citation
+## Citation
 
 If you find our code useful for your research, please cite the paper:
 
