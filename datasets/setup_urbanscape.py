@@ -2,7 +2,7 @@ import argparse
 import os.path
 import pdb
 import random
-from setup_vnavdataset_utils import *
+from setup_dataset_utils import *
 
 
 def get_ecef_origin():

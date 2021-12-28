@@ -1,6 +1,6 @@
 import random
 import argparse
-from setup_vnavdataset_utils import *
+from setup_dataset_utils import *
 
 
 def _reset_seed():
