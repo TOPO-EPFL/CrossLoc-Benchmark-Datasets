@@ -1,12 +1,20 @@
 # CrossLoc Benchmark Datasets Setup
 
-This repository contains CrossLoc Benchmark Datasets setup and splitting scripts. Please make sure you have access to the **CrossLoc Benchmark Raw Datasets** before proceeding. 
+This repository contains CrossLoc Benchmark Datasets setup and splitting scripts. Please make sure you have access to the **CrossLoc Benchmark Raw Datasets** before proceeding. We present the Urbanscape and Naturescape datasets, each consiting of **multi-modal synthetic data** and **real images with accurate geo-tags** captured by drone. See below for a preview!
 
 Ideally, you may want to use this repository as the starting template of your own project, as the python dependency, dataset and basic dataloader have already been developed. There is simply no reason to re-build the wheel. 
 
 Happy coding! :)
 
+<p align="center">
+  <img src="assets/pull_figure_1.png" width="100%">
+</p>
 
+<p align="center">
+  <img src="assets/pull_figure_2.png" width="100%">
+</p>
+
+* 3D textured models used to render the benchmark datasets. The dots and boxes denote the camera position distribution. Please check the paper for details!
 
 The CrossLoc Benchmark datasets are officially presented in the paper
 <br>
@@ -89,6 +97,18 @@ Please note that all RGB images are linked to the `DATA_DIR` directory using sym
 ```
 
 All directories have the same sub-folders (`calibration`, `depth`, `init` and others). To make the folder tree concise, only the sub-folders in the very first directory `test_drone_sim` is shown.
+
+## Dataset statistics
+
+### Raw data statistics
+
+<p align="center">
+  <img src="assets/raw_data_statistics.png" width="50%">
+</p>
+
+### Dataset splits
+
+We randomly split the **In-place and Out-of-place** scene data into **training (40%), validation (10%) and testing (50%)** sections. As for the **LHS-sim** scene data, it is split into **training (90%) and validation (10%)** sets. We intentionally formulate a challenging visual localization task by using more real data for testing than for training to better study the real data scarcity mitigation.
 
 ## Getting started
 
