@@ -1,8 +1,13 @@
 # CrossLoc Benchmark Datasets Setup
 
-This repository contains CrossLoc Benchmark Datasets setup and splitting scripts. Please make sure you have access to the **CrossLoc Benchmark Raw Datasets** before proceeding. We present the Urbanscape and Naturescape datasets, each consiting of **multi-modal synthetic data** and **real images with accurate geo-tags** captured by drone. See below for a preview!
+This repository contains CrossLoc Benchmark Datasets setup and splitting scripts. Please make sure you have access to the **CrossLoc Benchmark Raw Datasets** before proceeding. The raw datasets could be found as follows:
 
-Ideally, you may want to use this repository as the starting template of your own project, as the python dependency, dataset and basic dataloader have already been developed. There is simply no reason to re-build the wheel. 
+* [**`oneDrive`**](https://1drv.ms/u/s!AnkbqTET-eNqgoRsgBXkEg-PFSqudA?e=S6Pf43) 
+* [**`Google Drive`**](https://drive.google.com/drive/folders/19zIsQBeEvT69DLPbKoojOaG1_uau2VP1?usp=sharing)
+
+We present the Urbanscape and Naturescape datasets, each consiting of **multi-modal synthetic data** and **real images with accurate geo-tags** captured by drone. See below for a preview!
+
+Ideally, you may want to use this repository as the starting template of your own project, as the python dependency, dataset and basic dataloader have already been developed. 
 
 Happy coding! :)
 
