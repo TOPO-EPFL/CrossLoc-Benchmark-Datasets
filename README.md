@@ -4,6 +4,7 @@ This repository contains CrossLoc Benchmark Datasets setup and splitting scripts
 
 * [**`oneDrive`**](https://1drv.ms/u/s!AnkbqTET-eNqgoRsgBXkEg-PFSqudA?e=S6Pf43) 
 * [**`Google Drive`**](https://drive.google.com/drive/folders/19zIsQBeEvT69DLPbKoojOaG1_uau2VP1?usp=sharing)
+* [**`Dryad`**](https://doi.org/10.5061/dryad.mgqnk991c) (Full CrossLoc Benchmark Datasets only)
 
 We present the Urbanscape and Naturescape datasets, each consiting of **multi-modal synthetic data** and **real images with accurate geo-tags** captured by drone. See below for a preview!
 
@@ -29,7 +30,7 @@ The CrossLoc Benchmark datasets are officially presented in the paper accepted t
 <br>
 École Polytechnique Fédérale de Lausanne (EPFL)
 <br>
-Links: **[website](https://crossloc.github.io/) | [arXiv](https://arxiv.org/abs/2112.09081) | [code repos](https://github.com/TOPO-EPFL/CrossLoc)** 
+Links: **[website](https://crossloc.github.io/) | [arXiv](https://arxiv.org/abs/2112.09081) | [code repos](https://github.com/TOPO-EPFL/CrossLoc) | [datasets](https://doi.org/10.5061/dryad.mgqnk991c)** 
 
 
 ## Install dependencies
@@ -133,4 +134,15 @@ If you find our code useful for your research, please cite the paper:
   year={2021}
 }
 ````
+
+```bibtex
+@misc{iordan2022crossloc, 
+	title={CrossLoc Benchmark Datasets}, 
+	author={Doytchinov, Iordan and Yan, Qi and Zheng, Jianhao and Reding, Simon and Li, Shanci}, 
+	publisher={Dryad}, 
+    doi={10.5061/DRYAD.MGQNK991C}, 
+	url={http://datadryad.org/stash/dataset/doi:10.5061/dryad.mgqnk991c}
+	year={2022}, 
+}
+```
 
